@@ -1,5 +1,5 @@
 -- ==============================================================================
---  VCH-HaemLIS — Laboratory Information System (Haematology & Transfusion)
+--  VNH-HaemLIS — Laboratory Information System (Haematology & Transfusion)
 --  Vila Central Hospital, Port Vila — Laboratory Department, Ministry of Health
 --  Schema version 1.0 | Target: PostgreSQL 13+
 --
