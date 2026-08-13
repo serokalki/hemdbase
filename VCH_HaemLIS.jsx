@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useMemo, useRef } from "react";
 
 /* ============================================================================
-   VCH-HaemLIS — Haematology Laboratory Information System
+   VNH-HaemLIS — Haematology Laboratory Information System
    Vila Central Hospital, Port Vila — Laboratory Department
 
    One file. Everything the bench needs: register, order, collect, result,
