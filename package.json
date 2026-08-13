@@ -1,0 +1,30 @@
+{
+  "name": "vch-haemlis",
+  "version": "1.0.0",
+  "description": "Haematology Laboratory Information System - Vila Central Hospital, Port Vila",
+  "main": "main.js",
+  "author": "Laboratory Department, Vila Central Hospital",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win portable --x64"
+  },
+  "devDependencies": {
+    "electron": "31.7.7",
+    "electron-builder": "24.13.3"
+  },
+  "build": {
+    "appId": "vu.gov.health.vch.haemlis",
+    "productName": "VCH-HaemLIS",
+    "files": ["main.js", "VCH-HaemLIS.html"],
+    "win": {
+      "target": "portable",
+      "artifactName": "VCH-HaemLIS.exe"
+    },
+    "portable": {
+      "unpackDirName": "vch-haemlis"
+    },
+    "compression": "maximum"
+  }
+}
